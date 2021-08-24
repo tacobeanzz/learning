@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a href="#">
+          <a href="/">
             <i>
               <BsGrid />
             </i>
@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
         <li>
           <div className="icon-link">
-            <a href="#">
+            <a href="/">
               <i>
                 <BsCollection />
               </i>
@@ -38,15 +38,15 @@ const Navbar = () => {
           </div>
           <ul className="sub-menu">
             <li>
-              <a href="#">Web Design</a>
-              <a href="#">Card Design</a>
-              <a href="#">Login Forms</a>
+              <a href="/">Web Design</a>
+              <a href="/">Card Design</a>
+              <a href="/">Login Forms</a>
             </li>
           </ul>
         </li>
         <li>
           <div className="icon-link">
-            <a href="#">
+            <a href="/">
               <i>
                 <BsBook />
               </i>
