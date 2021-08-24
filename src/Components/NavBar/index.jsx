@@ -30,7 +30,7 @@ const Navbar = () => {
               <i>
                 <BsCollection />
               </i>
-              <span className="link_name">Category</span>
+              <span className="link_name">Category!</span>
             </a>
             <i>
               <BsChevronDown />
