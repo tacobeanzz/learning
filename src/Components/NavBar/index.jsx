@@ -8,7 +8,7 @@ import { BsBook } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="sidebar">
+    <div className="sidebar close">
       <div className="logo-details">
         <i>
           <GiBeard />
@@ -38,9 +38,12 @@ const Navbar = () => {
           </div>
           <ul className="sub-menu">
             <li>
-              <a href="/">Web Design</a>
-              <a href="/">Card Design</a>
-              <a href="/">Login Forms</a>
+              <a className="link_name" href="/">
+                Category
+              </a>
+              <a href="/">HTML & CSS</a>
+              <a href="/">JavaScript</a>
+              <a href="/">PHP & MySQL</a>
             </li>
           </ul>
         </li>
@@ -56,6 +59,16 @@ const Navbar = () => {
               <BsChevronDown />
             </i>
           </div>
+          <ul className="sub-menu">
+            <li>
+              <a className="link_name" href="/">
+                Posts
+              </a>
+              <a href="/">Web Design</a>
+              <a href="/">Card Design</a>
+              <a href="/">Login Forms</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
